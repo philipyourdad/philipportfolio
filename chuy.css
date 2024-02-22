@@ -454,6 +454,7 @@ section .title::after{
     width: calc(50% - 30px);
 }
 .contact .contact-content .text{
+    color: #CCCCCC;
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 10px;
@@ -474,7 +475,7 @@ section .title::after{
 }
 .contact .contact-content .row i{
     font-size: 25px;
-    color: #586d4a;;
+    color: #00174C;
 }
 .contact .contact-content .info .head{
     font-weight: 500;
@@ -500,9 +501,11 @@ section .title::after{
 }
 .contact .right form .field input,
 .contact .right form .textarea textarea{
+    background-color: #00174C;
+    color: #CCCCCC;
     height: 100%;
     width: 100%;
-    border: 1px solid lightgrey;
+    border: 1px solid #00174C;
     border-radius: 6px;
     outline: none;
     padding: 0 15px;
